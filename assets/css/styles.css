@@ -193,16 +193,17 @@ a {
     height: 90px;
     padding: 0 42px;
     border-radius: 12px;
+    background: #fff;
+}
+
+.clients .images a:hover {
+    box-shadow: 0px 10px 20px rgba(203, 203, 203, 0.1);
 }
 
 .clients .images a:nth-child(3) {
     height: 0;
     padding: 0;
     border-radius: 0;
-}
-
-.clients .images a:hover {
-    box-shadow: 0px 10px 20px rgba(203, 203, 203, 0.1);
 }
 
 /* ================ Guides ================ */
@@ -643,6 +644,11 @@ a {
     height: 28px;
     bottom: 0;
     border-radius: 3px;
+    background-color: #f9f9f9;
+}
+
+.footer .social-link + .social-link {
+    margin-left: 16px;
 }
 
 .footer .social-link:hover {
