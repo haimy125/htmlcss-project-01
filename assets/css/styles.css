@@ -210,7 +210,6 @@ a {
 }
 
 .clients .images a:nth-child(3) {
-    height: 0;
     padding: 0;
     border-radius: 0;
 }
